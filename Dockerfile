@@ -8,4 +8,3 @@ WORKDIR /app
 ADD . .
 # runs the pip install command for all packages listed in the requirements.txt file
 RUN pip install -r requirements.txt
-RUN echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
